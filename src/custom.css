@@ -1,17 +1,18 @@
 :root {
-  /* --ck-color-focus-border: none; */
-  /* --ck-color-base-border: transparent; */
-  /* --ck-color-toolbar-background: #ffffff; */
-  --ck-color-toolbar-border: #2ab0b4;
   --ck-focus-ring: none;
   --ck-inner-shadow: 0;
 }
 
 .ck.ck-toolbar {
+  background-color: transparent;
+  border: none;
+}
+
+.ck.ck-toolbar > .ck-toolbar__items {
   background: #fff;
   border: 3px solid #2ab0b4;
   border-radius: 10px !important;
-  margin: 4px 4px 4px 12px;
+  margin: 8px 12px 4px 12px;
 }
 
 .ck.ck-editor__main > .ck-editor__editable {
