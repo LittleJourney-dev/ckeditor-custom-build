@@ -61,6 +61,7 @@ Editor.defaultConfig = {
       "|",
       "undo",
       "redo",
+      "insertImage",
     ],
   },
   language: "en",
