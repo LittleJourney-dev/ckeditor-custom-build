@@ -14,13 +14,8 @@ import Paragraph from "@ckeditor/ckeditor5-paragraph/src/paragraph.js";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
-import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
-import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js';
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
-import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 
 
 import "./custom.css";
@@ -32,11 +27,7 @@ Editor.builtinPlugins = [
   Autoformat,
   AutoImage,
   Image,
-	ImageCaption,
-	ImageStyle,
-	ImageToolbar,
   ImageInsert,
-  ImageResize,
   LinkImage,
   Bold,
   Essentials,
@@ -67,10 +58,6 @@ Editor.defaultConfig = {
   image: {
 		toolbar: [
 			'imageTextAlternative',
-			'toggleImageCaption',
-			'imageStyle:inline',
-			'imageStyle:block',
-			'imageStyle:side',
       'linkImage',
 		]
 	},
