@@ -16,6 +16,7 @@ import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js';
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
+import Table from '@ckeditor/ckeditor5-table/src/table.js';
 
 
 import "./custom.css";
@@ -37,6 +38,7 @@ Editor.builtinPlugins = [
   Markdown,
   Paragraph,
   Underline,
+  Table,
 ];
 
 // Editor configuration.
@@ -46,6 +48,7 @@ Editor.defaultConfig = {
       "bold",
       "italic",
       "underline",
+      "insertTable",
       "link",
       "bulletedList",
       "numberedList",
