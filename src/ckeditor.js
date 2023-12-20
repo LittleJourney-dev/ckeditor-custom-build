@@ -43,6 +43,9 @@ Editor.builtinPlugins = [
 
 // Editor configuration.
 Editor.defaultConfig = {
+  table: {
+    defaultHeadings: { rows: 1 }
+  },
   toolbar: {
     items: [
       "bold",
